@@ -1,0 +1,1500 @@
+/*! Стили Новобесия */
+/*! а это просто, что бы было ровно полторы тыщи строчек */
+
+/*! ширина экрана более 1200 пикселей */
+@media screen and (min-width: 1201px) {
+        /*! основные параметры */
+    body {
+        font-family: 'Almendra'; /*! шрифт */
+        margin: 0; /*! отступ */
+        min-height: 100vh; /*! минимальный размер от экрана */
+        display: flex;
+        justify-content: center; /*! центрирование контента */
+        align-items: center; /*! центрирование элементов */
+        background-color: rgb(230, 215, 187);
+        font-size: 40px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    /*! текст класса Novobesie (название) */
+    .Novobesie {
+        font-family: 'Almendra'; /*! шрифт */
+        position: absolute; /*! система координат */
+        top: 30%;
+        left: 150%;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: rgb(255, 151, 81); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 35px rgb(255, 183, 135); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+    }
+
+    /*! текст класса Organizator (название) */
+    .Organizator {
+        position: absolute; /*! система координат */
+        top: 40%;
+        left: 152%;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: rgb(184, 137, 231); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 35px rgb(206, 164, 255); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+        border: 0;
+        cursor: pointer;
+    }
+
+    .Rules {
+        position: absolute; /*! система координат */
+        top: 55%;
+        left: 157%;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: rgb(184, 137, 231); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 35px rgb(206, 164, 255); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+        border: 0;
+        cursor: pointer;
+    }
+
+    /*! лого над названием */
+    .Logo {
+        position: absolute;
+        top: 10%;
+        left: 159%;
+        height: 144px;
+        width: 144px;
+        background: url('../img/Novobesie.png');
+        box-shadow: 0px 0px 20px black;
+        border-radius: 144px;
+    }
+
+    /*! бекраунд  слева сверху */
+    .BG {
+        background: url('../img/Preview.jpeg'); /*! путь */
+        background-repeat: no-repeat; /*! повторения по горизонтали*/
+        height: 100%; /*! высота */
+        width: 37%; /*! ширина */
+        position: absolute; /*! система отсчёта */
+        top: 0px; /*! пикселей сверху */
+        left:0px; /*! пискселей слева */
+        box-shadow: 0px 0px 80px black; /*! цвет тени */
+        border-radius: 0 0 7em 0; /*! скругление */
+    }
+
+    .Prew {
+        font-family: 'Almendra'; /*! шрифт */
+        font-size: 40px; /*! размер */
+        position: absolute; /*! система координат */
+        top: 1010px;
+        left: 600px;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-color: rgb(255, 151, 81); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 25px rgb(0, 0, 0); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+    }
+
+    .BoxImgPost {
+        position: relative;
+        top: 1100px;
+        background-color: blanchedalmond;
+        border-radius: 50px;
+        text-align: left;
+        box-shadow: 0 0 30px black;
+        height: 10em;
+        width: 40em;
+        margin-top: 5%;
+    }
+
+    .PrewImg {
+        position: relative;
+        height: 100%;
+        width: 35%;
+        box-shadow: 0 0 30px black;
+        border-radius: 50px;
+        cursor: default;
+        float: left;
+    }
+
+    .PrewPost {
+        position: relative;
+        left: 3%;
+        top: 2%;
+        text-align: left;
+        text-indent: -2%;
+    }
+
+    /*! buttom bar*/
+    .BB {
+        overflow: hidden;
+        background-color: bisque;
+        position: fixed; /*! фиксирование элемента */
+        bottom: 0;
+        width: 100%;
+        height: 5%;
+    }
+
+    .InfoStart {
+        font-family: 'Almendra'; /*! шрифт */
+        font-size: 40px; /*! размер */
+        position: absolute; /*! система координат */
+        top: 2600px;
+        left: 43%;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-color: rgb(255, 151, 81); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 25px rgb(0, 0, 0); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+    }
+
+    table {
+        position: absolute;
+        top: 2700px;
+        left: 10%;
+        border-spacing: 40px;
+    }
+
+    th {
+        font-family: 'Almendra'; /*! шрифт */
+        font-size: 30px; /*! размер */
+        position: relative;
+        background-color: blanchedalmond;
+        box-shadow: 0 0 30px black;
+        border-radius: 20px;
+        text-align: left;
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 700px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .posts {
+        font-family: 'Almendra'; /*! шрифт */
+        font-size: 40px; /*! размер */
+        position: absolute; /*! система координат */
+        top: 3570px;
+        left: 46%;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-color: rgb(255, 151, 81); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 25px rgb(0, 0, 0); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+    }
+    #slider { /*положение слайдера*/
+        position: absolute;
+        top: 3750px;
+        left: 25%;
+        height: 1500px;
+        box-shadow: 0 10px 25px rgb(0, 0, 0); /*! цвет тени */
+        border-radius: 20px; /*! скругление */
+        background-color: blanchedalmond; /*! цвет фона текстового блока */
+    }
+    
+    #slides article{ /*все изображения справа друг от доруга*/
+        width: 20%;
+        float: left;
+    }
+    
+    #slides .image{ /*устанавливает общий размер блока с изображениями*/
+        width:500%;
+        line-height: 100%;
+    }
+    
+    #overflow{ /*сркывает все, что находится за пределами этого блока*/
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    article img{ /*размер изображений слайдера*/
+        width: 100%;
+        border-radius: 20px; /*! скругление */
+    }
+    
+    #desktop:checked ~ #slider{ /*размер всего слайдера*/
+        max-width: 960px; /*максимальнная длинна*/
+    }
+    
+    label, a{ /*при наведении на стрелки или переключатели - курсор изменится*/
+        cursor: pointer;
+    }
+    
+    .all input{ /*скрывает стандартные инпуты (чекбоксы) на странице*/
+        display: none;
+    }
+    
+    /*позиция изображения при активации переключателя*/
+    #switch1:checked ~ #slides .image{
+        margin-left: 0;
+    }
+    
+    #switch2:checked ~ #slides .image{
+        margin-left: -100%;
+    }
+    
+    #switch3:checked ~ #slides .image{
+        margin-left: -200%;
+    }
+    
+    #switch4:checked ~ #slides .image{
+        margin-left: -300%;
+    }
+    
+    #switch5:checked ~ #slides .image{
+        margin-left: -400%;
+    }
+    
+    #controls{ /*положение блока всех управляющих элементов*/
+        margin: -177% 0 0 0;
+        width: 100%;
+        height: 50px;
+    }
+    
+    #active label{ /*стиль отдельного переключателя*/
+        border-radius: 20px; /*скругление углов*/
+        display: inline-block; /*расположение в строку*/
+        width: 25px;
+        height: 25px;
+        background: #bbb;
+    }
+    
+    #active{ /*расположение блока с переключателями*/
+        margin: 23% 0 0;
+        text-align: center;
+    }
+    
+    #active label:hover{ /*поведение чекбокса при наведении*/
+        background: rgb(184, 137, 231);
+        border-color: #777 !important; /*выполнение в любом случае*/
+    }
+    
+    /*цвет активного лейбла при активации чекбокса*/
+    #switch1:checked ~ #active label:nth-child(1),
+    #switch2:checked ~ #active label:nth-child(2),
+    #switch3:checked ~ #active label:nth-child(3),
+    #switch4:checked ~ #active label:nth-child(4),
+    #switch5:checked ~ #active label:nth-child(5){
+        background: rgb(184, 137, 231);
+        border-color: rgb(184, 137, 231) !important;
+    }
+    
+    #slides .image{ /*анимация пролистывания изображений*/
+        transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    }
+    
+    .post {
+        position: relative;
+        margin-left: 5%;
+        margin-right: 2%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-family: 'Almendra'; /*! шрифт */
+    }
+}
+
+/*! ширина экрана 1200 пикселей */
+@media screen and (max-width: 1200px){        /*! основные параметры */
+    body {
+        font-family: 'Almendra'; /*! шрифт */
+        margin: 0; /*! отступ */
+        min-height: 100vh; /*! минимальный размер от экрана */
+        display: flex;
+        justify-content: center; /*! центрирование контента */
+        align-items: center; /*! центрирование элементов */
+        background-color: rgb(230, 215, 187);
+        font-size: 40px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    /*! текст класса Novobesie (название) */
+    .Novobesie {
+        font-family: 'Almendra'; /*! шрифт */
+        position: absolute; /*! система координат */
+        top: 35%;
+        left: 132%;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: rgb(255, 151, 81); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 35px rgb(255, 183, 135); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+    }
+
+    /*! текст класса Organizator (название) */
+    .Organizator {
+        position: absolute; /*! система координат */
+        top: 45%;
+        left: 135%;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: rgb(184, 137, 231); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 35px rgb(206, 164, 255); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+        border: 0;
+        cursor: pointer;
+    }
+
+    .Rules {
+        position: absolute; /*! система координат */
+        top: 60%;
+        left: 140%;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: rgb(184, 137, 231); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 35px rgb(206, 164, 255); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+        border: 0;
+        cursor: pointer;
+    }
+
+    /*! лого над названием */
+    .Logo {
+        position: absolute;
+        top: 15%;
+        left: 140%;
+        height: 144px;
+        width: 144px;
+        background: url('../img/Novobesie.png');
+        box-shadow: 0px 0px 20px black;
+        border-radius: 144px;
+    }
+
+    /*! бекраунд  слева сверху */
+    .BG {
+        background: url('../img/Preview.jpeg'); /*! путь */
+        background-repeat: no-repeat; /*! повторения по горизонтали*/
+        height: 110%; /*! высота */
+        width: 50%; /*! ширина */
+        position: absolute; /*! система отсчёта */
+        top: 0px; /*! пикселей сверху */
+        left:0px; /*! пискселей слева */
+        box-shadow: 0px 0px 80px black; /*! цвет тени */
+        border-radius: 0 0 7em 0; /*! скругление */
+    }
+
+    .Prew {
+        font-family: 'Almendra'; /*! шрифт */
+        font-size: 40px; /*! размер */
+        position: absolute; /*! система координат */
+        top: 930px;
+        left: 350px;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-color: rgb(255, 151, 81); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 25px rgb(0, 0, 0); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+    }
+
+    .BoxImgPost {
+        position: relative;
+        top: 1000px;
+        background-color: blanchedalmond;
+        border-radius: 50px;
+        text-align: left;
+        box-shadow: 0 0 30px black;
+        height: 7em;
+        width: 25em;
+        margin-top: 10%;
+    }
+
+    .PrewImg {
+        position: relative;
+        height: 100%;
+        width: 40%;
+        box-shadow: 0 0 30px black;
+        border-radius: 50px;
+        cursor: default;
+        float: left;
+    }
+
+    .PrewPost {
+        position: relative;
+        left: 3%;
+        top: 2%;
+        text-align: left;
+        text-indent: -2%;
+    }
+
+    /*! buttom bar*/
+    .BB {
+        overflow: hidden;
+        background-color: bisque;
+        position: fixed; /*! фиксирование элемента */
+        bottom: 0;
+        width: 100%;
+        height: 5%;
+    }
+
+    .InfoStart {
+        font-family: 'Almendra'; /*! шрифт */
+        font-size: 40px; /*! размер */
+        position: absolute; /*! система координат */
+        top: 2200px;
+        left: 43%;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-color: rgb(255, 151, 81); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 25px rgb(0, 0, 0); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+    }
+
+    table {
+        position: absolute;
+        top: 2300px;
+        left: 3%;
+        border-spacing: 40px;
+    }
+
+    th {
+        font-family: 'Almendra'; /*! шрифт */
+        font-size: 30px; /*! размер */
+        position: relative;
+        background-color: blanchedalmond;
+        box-shadow: 0 0 30px black;
+        border-radius: 20px;
+        text-align: left;
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 700px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .posts {
+        font-family: 'Almendra'; /*! шрифт */
+        font-size: 40px; /*! размер */
+        position: absolute; /*! система координат */
+        top: 3350px;
+        left: 46%;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-color: rgb(255, 151, 81); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 25px rgb(0, 0, 0); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+    }
+    #slider { /*положение слайдера*/
+        position: absolute;
+        top: 3500px;
+        left: 11%;
+        height: 1500px;
+        box-shadow: 0 10px 25px rgb(0, 0, 0); /*! цвет тени */
+        border-radius: 20px; /*! скругление */
+        background-color: blanchedalmond; /*! цвет фона текстового блока */
+    }
+    
+    #slides article{ /*все изображения справа друг от доруга*/
+        width: 33.32%;
+        float: left;
+    }
+    
+    #slides .image{ /*устанавливает общий размер блока с изображениями*/
+        width:300%;
+        line-height: 100%;
+    }
+    
+    #overflow{ /*сркывает все, что находится за пределами этого блока*/
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    article img{ /*размер изображений слайдера*/
+        width: 100%;
+        border-radius: 20px; /*! скругление */
+    }
+    
+    #desktop:checked ~ #slider{ /*размер всего слайдера*/
+        max-width: 960px; /*максимальнная длинна*/
+    }
+    
+    label, a{ /*при наведении на стрелки или переключатели - курсор изменится*/
+        cursor: pointer;
+    }
+    
+    .all input{ /*скрывает стандартные инпуты (чекбоксы) на странице*/
+        display: none;
+    }
+    
+    /*позиция изображения при активации переключателя*/
+    #switch1:checked ~ #slides .image{
+        margin-left: 0;
+    }
+    
+    #switch2:checked ~ #slides .image{
+        margin-left: -100%;
+    }
+    
+    #switch3:checked ~ #slides .image{
+        margin-left: -200%;
+    }
+    
+    #switch4:checked ~ #slides .image{
+        margin-left: -300%;
+    }
+    
+    #switch5:checked ~ #slides .image{
+        margin-left: -400%;
+    }
+    
+    #controls{ /*положение блока всех управляющих элементов*/
+        margin: -176% 0 0 0;
+        width: 100%;
+        height: 50px;
+    }
+    
+    #active label{ /*стиль отдельного переключателя*/
+        border-radius: 20px; /*скругление углов*/
+        display: inline-block; /*расположение в строку*/
+        width: 25px;
+        height: 25px;
+        background: #bbb;
+    }
+    
+    #active{ /*расположение блока с переключателями*/
+        margin: 23% 0 0;
+        text-align: center;
+    }
+    
+    #active label:hover{ /*поведение чекбокса при наведении*/
+        background: rgb(184, 137, 231);
+        border-color: #777 !important; /*выполнение в любом случае*/
+    }
+    
+    /*цвет активного лейбла при активации чекбокса*/
+    #switch1:checked ~ #active label:nth-child(1),
+    #switch2:checked ~ #active label:nth-child(2),
+    #switch3:checked ~ #active label:nth-child(3),
+    #switch4:checked ~ #active label:nth-child(4),
+    #switch5:checked ~ #active label:nth-child(5){
+        background: rgb(184, 137, 231);
+        border-color: rgb(184, 137, 231) !important;
+    }
+    
+    #slides .image{ /*анимация пролистывания изображений*/
+        transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    }
+    
+    .post {
+        position: relative;
+        margin-left: 5%;
+        margin-right: 2%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-family: 'Almendra'; /*! шрифт */
+    }
+}
+
+@media screen and (max-width: 998px){
+    /*! основные параметры */
+    body {
+        font-family: 'Almendra'; /*! шрифт */
+        margin: 0; /*! отступ */
+        min-height: 100vh; /*! минимальный размер от экрана */
+        display: flex;
+        justify-content: center; /*! центрирование контента */
+        align-items: center; /*! центрирование элементов */
+        background-color: rgb(230, 215, 187);
+        font-size: 40px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    /*! текст класса Novobesie (название) */
+    .Novobesie {
+        font-family: 'Almendra'; /*! шрифт */
+        position: absolute; /*! система координат */
+        top: 35%;
+        left: 130%;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: rgb(255, 151, 81); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 35px rgb(255, 183, 135); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+    }
+    
+     /*! текст класса Organizator (название) */
+    .Organizator {
+        position: absolute; /*! система координат */
+        top: 45%;
+        left: 133%;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: rgb(184, 137, 231); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 35px rgb(206, 164, 255); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+        border: 0;
+        cursor: pointer;
+    }
+    
+    .Rules {
+        position: absolute; /*! система координат */
+        top: 60%;
+        left: 140%;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: rgb(184, 137, 231); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 35px rgb(206, 164, 255); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+        border: 0;
+        cursor: pointer;
+    }
+    
+    /*! лого над названием */
+    .Logo {
+        position: absolute;
+        top: 10%;
+        left: 140%;
+        height: 144px;
+        width: 144px;
+        background: url('../img/Novobesie.png');
+        box-shadow: 0px 0px 20px black;
+        border-radius: 144px;
+    }
+    
+    /*! бекраунд  слева сверху */
+    .BG {
+        background: url('../img/Preview.jpeg'); /*! путь */
+        background-repeat: no-repeat; /*! повторения по горизонтали*/
+        height: 100%; /*! высота */
+        width: 50%; /*! ширина */
+        position: absolute; /*! система отсчёта */
+        top: 0px; /*! пикселей сверху */
+        left:0px; /*! пискселей слева */
+        box-shadow: 0px 0px 80px black; /*! цвет тени */
+        border-radius: 0 0 7em 0; /*! скругление */
+    }
+    
+    .Prew {
+        font-family: 'Almendra'; /*! шрифт */
+        font-size: 40px; /*! размер */
+        position: absolute; /*! система координат */
+        top: 820px;
+        left: 200px;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-color: rgb(255, 151, 81); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 25px rgb(0, 0, 0); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+    }
+    
+    .BoxImgPost {
+        position: relative;
+        top: 900px;
+        background-color: blanchedalmond;
+        border-radius: 50px;
+        text-align: left;
+        box-shadow: 0 0 30px black;
+        height: 5em;
+        width: 20em;
+        margin-top: 10%;
+    }
+    
+    .PrewImg {
+        position: relative;
+        height: 100%;
+        width: 40%;
+        box-shadow: 0 0 30px black;
+        border-radius: 50px;
+        cursor: default;
+        float: left;
+    }
+    
+    .PrewPost {
+        position: relative;
+        left: 3%;
+        top: 2%;
+        text-align: left;
+        text-indent: -2%;
+    }
+    
+    /*! buttom bar*/
+    .BB {
+        overflow: hidden;
+        background-color: bisque;
+        position: fixed; /*! фиксирование элемента */
+        bottom: 0;
+        width: 100%;
+        height: 5%;
+    }
+    
+    .InfoStart {
+        font-family: 'Almendra'; /*! шрифт */
+        font-size: 40px; /*! размер */
+        position: absolute; /*! система координат */
+        top: 1800px;
+        left: 37%;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-color: rgb(255, 151, 81); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 25px rgb(0, 0, 0); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+    }
+    
+    table {
+        position: absolute;
+        top: 1880px;
+        left: 1%;
+        border-spacing: 40px;
+    }
+    
+    th {
+        font-family: 'Almendra'; /*! шрифт */
+        font-size: 30px; /*! размер */
+        position: relative;
+        background-color: blanchedalmond;
+        box-shadow: 0 0 30px black;
+        border-radius: 20px;
+        text-align: left;
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 700px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    
+    .posts {
+        font-family: 'Almendra'; /*! шрифт */
+        font-size: 40px; /*! размер */
+        position: absolute; /*! система координат */
+        top: 3050px;
+        left: 44%;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-color: rgb(255, 151, 81); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 25px rgb(0, 0, 0); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+    }
+    #slider { /*положение слайдера*/
+        position: absolute;
+        top: 3180px;
+        left: 5%;
+        height: 1500px;
+        box-shadow: 0 10px 25px rgb(0, 0, 0); /*! цвет тени */
+        border-radius: 20px; /*! скругление */
+        background-color: blanchedalmond; /*! цвет фона текстового блока */
+    }
+        
+    #slides article{ /*все изображения справа друг от доруга*/
+        width: 50%;
+        float: left;
+    }
+        
+    #slides .image{ /*устанавливает общий размер блока с изображениями*/
+        width:200%;
+        line-height: 100%;
+    }
+        
+    #overflow{ /*сркывает все, что находится за пределами этого блока*/
+        width: 100%;
+        overflow: hidden;
+    }
+        
+    article img{ /*размер изображений слайдера*/
+        width: 100%;
+        border-radius: 20px; /*! скругление */
+    }
+        
+    #desktop:checked ~ #slider{ /*размер всего слайдера*/
+         max-width: 900px; /*максимальнная длинна*/
+    }
+        
+    label, a{ /*при наведении на стрелки или переключатели - курсор изменится*/
+        cursor: pointer;
+    }
+        
+    .all input{ /*скрывает стандартные инпуты (чекбоксы) на странице*/
+        display: none;
+    }
+        
+    /*позиция изображения при активации переключателя*/
+    #switch1:checked ~ #slides .image{
+        margin-left: 0;
+    }
+        
+    #switch2:checked ~ #slides .image{
+        margin-left: -100%;
+    }
+        
+    #switch3:checked ~ #slides .image{
+        margin-left: -200%;
+    }
+        
+    #switch4:checked ~ #slides .image{
+        margin-left: -300%;
+    }
+        
+    #switch5:checked ~ #slides .image{
+        margin-left: -400%;
+    }
+        
+    #controls{ /*положение блока всех управляющих элементов*/
+        margin: -202% 0 0 0;
+        width: 100%;
+        height: 50px;
+    }
+        
+    #active label{ /*стиль отдельного переключателя*/
+        border-radius: 20px; /*скругление углов*/
+        display: inline-block; /*расположение в строку*/
+        width: 25px;
+        height: 25px;
+        background: #bbb;
+    }
+        
+    #active{ /*расположение блока с переключателями*/
+        margin: 23% 0 0;
+        text-align: center;
+    }
+        
+    #active label:hover{ /*поведение чекбокса при наведении*/
+        background: rgb(184, 137, 231);
+        border-color: #777 !important; /*выполнение в любом случае*/
+    }
+        
+    /*цвет активного лейбла при активации чекбокса*/
+    #switch1:checked ~ #active label:nth-child(1),
+    #switch2:checked ~ #active label:nth-child(2),
+    #switch3:checked ~ #active label:nth-child(3),
+    #switch4:checked ~ #active label:nth-child(4),
+    #switch5:checked ~ #active label:nth-child(5){
+        background: rgb(184, 137, 231);
+        border-color: rgb(184, 137, 231) !important;
+    }
+        
+    #slides .image{ /*анимация пролистывания изображений*/
+        transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    }
+        
+    .post {
+        position: relative;
+        margin-left: 5%;
+        margin-right: 2%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-family: 'Almendra'; /*! шрифт */
+    }  
+}
+
+@media screen and (max-width: 786px){
+    /*! основные параметры */
+    body {
+        font-family: 'Almendra'; /*! шрифт */
+        margin: 0; /*! отступ */
+        min-height: 100vh; /*! минимальный размер от экрана */
+        display: flex;
+        justify-content: center; /*! центрирование контента */
+        align-items: center; /*! центрирование элементов */
+        background-color: rgb(230, 215, 187);
+        font-size: 40px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    /*! текст класса Novobesie (название) */
+    .Novobesie {
+        font-family: 'Almendra'; /*! шрифт */
+        position: absolute; /*! система координат */
+        top: 35%;
+        left: 130%;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: rgb(255, 151, 81); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 35px rgb(255, 183, 135); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+    }
+    
+     /*! текст класса Organizator (название) */
+    .Organizator {
+        position: absolute; /*! система координат */
+        top: 45%;
+        left: 133%;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: rgb(184, 137, 231); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 35px rgb(206, 164, 255); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+        border: 0;
+        cursor: pointer;
+    }
+    
+    .Rules {
+        position: absolute; /*! система координат */
+        top: 60%;
+        left: 140%;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: rgb(184, 137, 231); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 35px rgb(206, 164, 255); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+        border: 0;
+        cursor: pointer;
+    }
+    
+    /*! лого над названием */
+    .Logo {
+        position: absolute;
+        top: 10%;
+        left: 142%;
+        height: 144px;
+        width: 144px;
+        background: url('../img/Novobesie.png');
+        box-shadow: 0px 0px 20px black;
+        border-radius: 144px;
+    }
+    
+    /*! бекраунд  слева сверху */
+    .BG {
+        background: url('../img/Preview.jpeg'); /*! путь */
+        background-repeat: no-repeat; /*! повторения по горизонтали*/
+        height: 100%; /*! высота */
+        width: 50%; /*! ширина */
+        position: absolute; /*! система отсчёта */
+        top: 0px; /*! пикселей сверху */
+        left:0px; /*! пискселей слева */
+        box-shadow: 0px 0px 80px black; /*! цвет тени */
+        border-radius: 0 0 7em 0; /*! скругление */
+    }
+    
+    .Prew {
+        font-family: 'Almendra'; /*! шрифт */
+        font-size: 40px; /*! размер */
+        position: absolute; /*! система координат */
+        top: 820px;
+        left: 120px;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-color: rgb(255, 151, 81); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 25px rgb(0, 0, 0); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+    }
+    
+    .BoxImgPost {
+        position: relative;
+        top: 900px;
+        background-color: blanchedalmond;
+        border-radius: 50px;
+        text-align: left;
+        box-shadow: 0 0 30px black;
+        height: 5em;
+        width: 18em;
+        margin-top: 10%;
+    }
+    
+    .PrewImg {
+        position: relative;
+        height: 100%;
+        width: 40%;
+        box-shadow: 0 0 30px black;
+        border-radius: 50px;
+        cursor: default;
+        float: left;
+    }
+    
+    .PrewPost {
+        position: relative;
+        left: 3%;
+        top: 2%;
+        text-align: left;
+        text-indent: -2%;
+    }
+    
+    /*! buttom bar*/
+    .BB {
+        overflow: hidden;
+        background-color: bisque;
+        position: fixed; /*! фиксирование элемента */
+        bottom: 0;
+        width: 100%;
+        height: 5%;
+    }
+    
+    .InfoStart {
+        font-family: 'Almendra'; /*! шрифт */
+        font-size: 40px; /*! размер */
+        position: absolute; /*! система координат */
+        top: 1770px;
+        left: 37%;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-color: rgb(255, 151, 81); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 25px rgb(0, 0, 0); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+    }
+    
+    table {
+        position: absolute;
+        top: 1830px;
+        left: 1%;
+        border-spacing: 40px;
+    }
+    
+    th {
+        font-family: 'Almendra'; /*! шрифт */
+        font-size: 30px; /*! размер */
+        position: relative;
+        background-color: blanchedalmond;
+        box-shadow: 0 0 30px black;
+        border-radius: 20px;
+        text-align: left;
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 700px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    
+    .posts {
+        font-family: 'Almendra'; /*! шрифт */
+        font-size: 40px; /*! размер */
+        position: absolute; /*! система координат */
+        top: 3330px;
+        left: 42%;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-color: rgb(255, 151, 81); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 25px rgb(0, 0, 0); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+    }
+    #slider { /*положение слайдера*/
+        position: absolute;
+        top: 3460px;
+        left: 6%;
+        height: 1500px;
+        box-shadow: 0 10px 25px rgb(0, 0, 0); /*! цвет тени */
+        border-radius: 20px; /*! скругление */
+        background-color: blanchedalmond; /*! цвет фона текстового блока */
+    }
+        
+    #slides article{ /*все изображения справа друг от доруга*/
+        width: 50%;
+        float: left;
+    }
+        
+    #slides .image{ /*устанавливает общий размер блока с изображениями*/
+        width:200%;
+        line-height: 100%;
+    }
+        
+    #overflow{ /*сркывает все, что находится за пределами этого блока*/
+        width: 100%;
+        overflow: hidden;
+    }
+        
+    article img{ /*размер изображений слайдера*/
+        width: 100%;
+        border-radius: 20px; /*! скругление */
+    }
+        
+    #desktop:checked ~ #slider{ /*размер всего слайдера*/
+         max-width: 700px; /*максимальнная длинна*/
+    }
+        
+    label, a{ /*при наведении на стрелки или переключатели - курсор изменится*/
+        cursor: pointer;
+    }
+        
+    .all input{ /*скрывает стандартные инпуты (чекбоксы) на странице*/
+        display: none;
+    }
+        
+    /*позиция изображения при активации переключателя*/
+    #switch1:checked ~ #slides .image{
+        margin-left: 0;
+    }
+        
+    #switch2:checked ~ #slides .image{
+        margin-left: -100%;
+    }
+        
+    #switch3:checked ~ #slides .image{
+        margin-left: -200%;
+    }
+        
+    #switch4:checked ~ #slides .image{
+        margin-left: -300%;
+    }
+        
+    #switch5:checked ~ #slides .image{
+        margin-left: -400%;
+    }
+        
+    #controls{ /*положение блока всех управляющих элементов*/
+        margin: -245% 0 0 0;
+        width: 100%;
+        height: 50px;
+    }
+        
+    #active label{ /*стиль отдельного переключателя*/
+        border-radius: 20px; /*скругление углов*/
+        display: inline-block; /*расположение в строку*/
+        width: 25px;
+        height: 25px;
+        background: #bbb;
+    }
+        
+    #active{ /*расположение блока с переключателями*/
+        margin: 23% 0 0;
+        text-align: center;
+    }
+        
+    #active label:hover{ /*поведение чекбокса при наведении*/
+        background: rgb(184, 137, 231);
+        border-color: #777 !important; /*выполнение в любом случае*/
+    }
+        
+    /*цвет активного лейбла при активации чекбокса*/
+    #switch1:checked ~ #active label:nth-child(1),
+    #switch2:checked ~ #active label:nth-child(2),
+    #switch3:checked ~ #active label:nth-child(3),
+    #switch4:checked ~ #active label:nth-child(4),
+    #switch5:checked ~ #active label:nth-child(5){
+        background: rgb(184, 137, 231);
+        border-color: rgb(184, 137, 231) !important;
+    }
+        
+    #slides .image{ /*анимация пролистывания изображений*/
+        transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    }
+        
+    .post {
+        position: relative;
+        margin-left: 5%;
+        margin-right: 2%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-family: 'Almendra'; /*! шрифт */
+    }  
+}
+
+@media screen and (max-width: 576px){
+    /*! основные параметры */
+    body {
+        font-family: 'Almendra'; /*! шрифт */
+        margin: 0; /*! отступ */
+        min-height: 100vh; /*! минимальный размер от экрана */
+        display: flex;
+        justify-content: center; /*! центрирование контента */
+        align-items: center; /*! центрирование элементов */
+        background-color: rgb(230, 215, 187);
+        font-size: 40px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    /*! текст класса Novobesie (название) */
+    .Novobesie {
+        font-family: 'Almendra'; /*! шрифт */
+        position: absolute; /*! система координат */
+        top: 35%;
+        left: 122%;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: rgb(255, 151, 81); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 35px rgb(255, 183, 135); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+    }
+    
+     /*! текст класса Organizator (название) */
+    .Organizator {
+        position: absolute; /*! система координат */
+        top: 45%;
+        left: 125%;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: rgb(184, 137, 231); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 35px rgb(206, 164, 255); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+        border: 0;
+        cursor: pointer;
+    }
+    
+    .Rules {
+        position: absolute; /*! система координат */
+        top: 62%;
+        left: 135%;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: rgb(184, 137, 231); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 35px rgb(206, 164, 255); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+        border: 0;
+        cursor: pointer;
+    }
+    
+    /*! лого над названием */
+    .Logo {
+        position: absolute;
+        top: 10%;
+        left: 135%;
+        height: 144px;
+        width: 144px;
+        background: url('../img/Novobesie.png');
+        box-shadow: 0px 0px 20px black;
+        border-radius: 144px;
+    }
+    
+    /*! бекраунд  слева сверху */
+    .BG {
+        background: url('../img/Preview.jpeg'); /*! путь */
+        background-repeat: no-repeat; /*! повторения по горизонтали*/
+        height: 100%; /*! высота */
+        width: 70%; /*! ширина */
+        position: absolute; /*! система отсчёта */
+        top: 0px; /*! пикселей сверху */
+        left:0px; /*! пискселей слева */
+        box-shadow: 0px 0px 80px black; /*! цвет тени */
+        border-radius: 0 0 7em 0; /*! скругление */
+    }
+    
+    .Prew {
+        font-family: 'Almendra'; /*! шрифт */
+        font-size: 40px; /*! размер */
+        position: absolute; /*! система координат */
+        top: 820px;
+        left: 90px;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-color: rgb(255, 151, 81); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 25px rgb(0, 0, 0); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+    }
+    
+    .BoxImgPost {
+        position: relative;
+        top: 900px;
+        left: 90px;
+        background-color: blanchedalmond;
+        border-radius: 50px;
+        text-align: left;
+        box-shadow: 0 0 30px black;
+        height: 5em;
+        width: 17em;
+        margin-top: 10%;
+    }
+    
+    .PrewImg {
+        position: relative;
+        height: 100%;
+        width: 40%;
+        box-shadow: 0 0 30px black;
+        border-radius: 50px;
+        cursor: default;
+        float: left;
+    }
+    
+    .PrewPost {
+        position: relative;
+        left: 3%;
+        top: 2%;
+        text-align: left;
+        text-indent: -2%;
+    }
+    
+    /*! buttom bar*/
+    .BB {
+        overflow: hidden;
+        background-color: bisque;
+        position: fixed; /*! фиксирование элемента */
+        bottom: 0;
+        width: 100%;
+        height: 5%;
+    }
+    
+    .InfoStart {
+        font-family: 'Almendra'; /*! шрифт */
+        font-size: 40px; /*! размер */
+        position: absolute; /*! система координат */
+        top: 1770px;
+        left: 45%;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-color: rgb(255, 151, 81); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 25px rgb(0, 0, 0); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+    }
+    
+    table {
+        position: absolute;
+        top: 1830px;
+        left: 5%;
+        border-spacing: 40px;
+        width: 700px;
+    }
+    
+    th {
+        font-family: 'Almendra'; /*! шрифт */
+        font-size: 30px; /*! размер */
+        position: relative;
+        background-color: blanchedalmond;
+        box-shadow: 0 0 30px black;
+        border-radius: 20px;
+        text-align: left;
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 700px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    
+    .posts {
+        font-family: 'Almendra'; /*! шрифт */
+        font-size: 40px; /*! размер */
+        position: absolute; /*! система координат */
+        top: 3450px;
+        left: 55%;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-color: rgb(255, 151, 81); /*! цвет фона текстового блока */
+        text-align: center; /*! положение текста в блоке */
+        box-shadow: 0 10px 25px rgb(0, 0, 0); /*! цвет тени */
+        border-radius: 10px; /*! скругление */
+    }
+    #slider { /*положение слайдера*/
+        position: absolute;
+        top: 3580px;
+        left: 15%;
+        height: 1500px;
+        box-shadow: 0 10px 25px rgb(0, 0, 0); /*! цвет тени */
+        border-radius: 20px; /*! скругление */
+        background-color: blanchedalmond; /*! цвет фона текстового блока */
+    }
+        
+    #slides article{ /*все изображения справа друг от доруга*/
+        width: 50%;
+        float: left;
+    }
+        
+    #slides .image{ /*устанавливает общий размер блока с изображениями*/
+        width:200%;
+        line-height: 100%;
+    }
+        
+    #overflow{ /*сркывает все, что находится за пределами этого блока*/
+        width: 100%;
+        overflow: hidden;
+    }
+        
+    article img{ /*размер изображений слайдера*/
+        width: 100%;
+        border-radius: 20px; /*! скругление */
+    }
+        
+    #desktop:checked ~ #slider{ /*размер всего слайдера*/
+        width: 600px; /*максимальнная длинна*/
+    }
+        
+    label, a{ /*при наведении на стрелки или переключатели - курсор изменится*/
+        cursor: pointer;
+    }
+        
+    .all input{ /*скрывает стандартные инпуты (чекбоксы) на странице*/
+        display: none;
+    }
+        
+    /*позиция изображения при активации переключателя*/
+    #switch1:checked ~ #slides .image{
+        margin-left: 0;
+    }
+        
+    #switch2:checked ~ #slides .image{
+        margin-left: -100%;
+    }
+        
+    #switch3:checked ~ #slides .image{
+        margin-left: -200%;
+    }
+        
+    #switch4:checked ~ #slides .image{
+        margin-left: -300%;
+    }
+        
+    #switch5:checked ~ #slides .image{
+        margin-left: -400%;
+    }
+        
+    #controls{ /*положение блока всех управляющих элементов*/
+        margin: -290% 0 0 0;
+        width: 100%;
+        height: 50px;
+    }
+        
+    #active label{ /*стиль отдельного переключателя*/
+        border-radius: 20px; /*скругление углов*/
+        display: inline-block; /*расположение в строку*/
+        width: 25px;
+        height: 25px;
+        background: #bbb;
+    }
+        
+    #active{ /*расположение блока с переключателями*/
+        margin: 23% 0 0;
+        text-align: center;
+    }
+        
+    #active label:hover{ /*поведение чекбокса при наведении*/
+        background: rgb(184, 137, 231);
+        border-color: #777 !important; /*выполнение в любом случае*/
+    }
+        
+    /*цвет активного лейбла при активации чекбокса*/
+    #switch1:checked ~ #active label:nth-child(1),
+    #switch2:checked ~ #active label:nth-child(2),
+    #switch3:checked ~ #active label:nth-child(3),
+    #switch4:checked ~ #active label:nth-child(4),
+    #switch5:checked ~ #active label:nth-child(5){
+        background: rgb(184, 137, 231);
+        border-color: rgb(184, 137, 231) !important;
+    }
+        
+    #slides .image{ /*анимация пролистывания изображений*/
+        transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    }
+        
+    .post {
+        position: relative;
+        margin-left: 5%;
+        margin-right: 2%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-family: 'Almendra'; /*! шрифт */
+    }  
+}
